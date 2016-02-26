@@ -41,7 +41,9 @@ do
 	<rra>
 		<cf> $CF </cf>
 		<pdp_per_row> 1 </pdp_per_row>
-		<xff> 0.0000000000e+00 </xff>
+		<params>
+			<xff> 0.0000000000e+00 </xff>
+		</params>
 
 		<cdp_prep>
 RRA
