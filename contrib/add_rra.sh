@@ -35,7 +35,7 @@ do
 	
 	if [ "$LINE" = "<!-- Round Robin Archives -->" ]
 	then
-		for CF in MIN MAX AVERAGE
+		for CF in MIN MAX AVERAGE LAST
 		do
 			cat <<RRA
 	<rra>

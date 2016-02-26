@@ -5958,9 +5958,9 @@ a very good reason to do so.
 
 The C<rrdtool plugin> calculates the number of PDPs per CDP based on the
 B<StepSize>, this setting and a timespan. This plugin creates RRD-files with
-three times five RRAs, i. e. five RRAs with the CFs B<MIN>, B<AVERAGE>, and
-B<MAX>. The five RRAs are optimized for graphs covering one hour, one day, one
-week, one month, and one year.
+four times five RRAs, i.e. five RRAs with the CFs B<MIN>, B<AVERAGE>, B<MAX>,
+and B<LAST>. The five RRAs are optimized for graphs covering one hour,
+one day, one week, one month, and one year.
 
 So for each timespan, it calculates how many PDPs need to be consolidated into
 one CDP by calculating:
@@ -6036,9 +6036,9 @@ a very good reason to do so.
 
 The C<rrdtool plugin> calculates the number of PDPs per CDP based on the
 B<StepSize>, this setting and a timespan. This plugin creates RRD-files with
-three times five RRAs, i.e. five RRAs with the CFs B<MIN>, B<AVERAGE>, and
-B<MAX>. The five RRAs are optimized for graphs covering one hour, one day, one
-week, one month, and one year.
+four times five RRAs, i.e. five RRAs with the CFs B<MIN>, B<AVERAGE>, B<MAX>,
+and B<LAST>. The five RRAs are optimized for graphs covering one hour,
+one day, one week, one month, and one year.
 
 So for each timespan, it calculates how many PDPs need to be consolidated into
 one CDP by calculating:

@@ -66,7 +66,8 @@ static char *rra_types[] =
 {
   "AVERAGE",
   "MIN",
-  "MAX"
+  "MAX",
+  "LAST",
 };
 static int rra_types_num = STATIC_ARRAY_SIZE (rra_types);
 
